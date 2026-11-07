@@ -7,7 +7,7 @@ const resultado = document.getElementById("resultado");
 
 // Evento de envio
 
-formulario.addEventListener("submit", function(event) {
+formulario.addEventListener("submit", function (event) {
 
     // Impede o recarregamento da página
 
@@ -85,7 +85,7 @@ formulario.addEventListener("submit", function(event) {
 
 // Evento do botão LIMPAR
 
-formulario.addEventListener("reset", function() {
+formulario.addEventListener("reset", function () {
 
     resultado.innerHTML = "";
 
